@@ -1,0 +1,73 @@
+/* App.css */
+
+/* Stare style */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #4CAF50;
+  text-align: left;
+  padding: 5px 0;
+}
+
+h3 {
+  color: #4CAF50;
+  text-align: left;
+  padding: 5px 0;
+}
+
+p {
+  margin: 0;
+  padding-left: 10px;
+}
+
+div {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.link-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #4CAF50;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.link-button:hover {
+  background-color: #45a049;
+}
+
+.link-button:active {
+  background-color: #388e3c;
+}
+
+/* Nowe style dla CategoryDetailsView i ElementDetailsView */
+
+.detail-view {
+  background-color: #e8f5e9;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.detail-view h2 {
+  color: #2e7d32;
+}
+
+.detail-view h3 {
+  color: #388e3c;
+}
+
+.detail-view p {
+  color: #558b2f;
+}

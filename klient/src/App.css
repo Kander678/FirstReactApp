@@ -1,0 +1,68 @@
+/* AdminPanel.css */
+
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h2 {
+  color: #f5eeee;
+  width: 100%;
+  text-align: center;
+}
+
+h4 {
+  color: #f5eeee;
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.selectors-and-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  flex-wrap: wrap;
+}
+
+.selectors, .buttons, .extra-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.selectors label {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+select, input {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+label {
+  font-size: 1.2em;
+  color: #333;
+}
